@@ -49,3 +49,17 @@ body {
 /* end header */
 
 /* footer */
+
+.footer {
+  padding: 12px;
+  background: #b8b6b7;
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.footer-med {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
