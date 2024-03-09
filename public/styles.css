@@ -11,3 +11,37 @@ body {
   justify-content: space-between;
   flex-direction: column;
 }
+
+.header {
+  color: #fff;
+  background: #090641;
+
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav {
+  margin: auto 0;
+}
+
+.header .nav ul {
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  gap: 14px;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li a:hover,
+.nav ul li:hover {
+  color: #d4d2d2;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+
+  transform: translateY(-4px) scale(1.03);
+}
