@@ -1,3 +1,6 @@
+:root {
+  --lrPadding: 24px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +21,7 @@ body {
   color: #fff;
   background: #090641;
 
-  padding: 8px 24px;
+  padding: 8px var(--lrPadding);
   display: flex;
   justify-content: space-between;
 }
@@ -50,6 +53,32 @@ body {
 
 /* end header */
 
+/* MAIN */
+/* main header */
+.container {
+}
+
+.main-header {
+  background: #090641;
+  height: 50vh;
+  color: #fff;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right-header {
+  border: 2px solid #fff;
+  height: 200px;
+  width: 250px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* END MAIN HEADER */
 /* footer */
 
 .footer {
