@@ -79,6 +79,29 @@ body {
 }
 
 /* END MAIN HEADER */
+
+/* FEATURES */
+.projects {
+  padding: 30px var(--lrPadding);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.cards {
+  height: 400px;
+  width: 200px;
+}
+
+.cards .img-holder {
+  margin-bottom: 12px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
 /* footer */
 
 .footer {
