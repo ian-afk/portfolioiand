@@ -103,7 +103,17 @@ body {
 }
 
 /* PROJECT-PURPOSES section */
+.project-purposes {
+  padding: 0 120px;
+}
 
+.project-purposes > div {
+  margin-bottom: 14px;
+}
+
+.project-purposes > div h2 {
+  margin: 12px 0;
+}
 /* END of PROJECT-PURPOSES */
 
 /* footer */
