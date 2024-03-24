@@ -30,6 +30,11 @@ body {
   margin: auto 0;
 }
 
+.heading__logo {
+  background-color: #b8b6b7;
+  border-radius: 50px;
+  padding: 12px;
+}
 .header .nav ul {
   text-decoration: none;
   display: flex;
