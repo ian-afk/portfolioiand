@@ -55,6 +55,16 @@ body {
 
   transform: translateY(-4px) scale(1.03);
 }
+@media (max-width: 330px) {
+  .heading__logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav {
+    display: none;
+  }
+}
 
 /* end header */
 
@@ -104,6 +114,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
