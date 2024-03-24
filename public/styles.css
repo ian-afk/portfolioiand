@@ -65,12 +65,24 @@ body {
 
 .main-header {
   background: #090641;
-  height: 50vh;
   color: #fff;
+  height: 60vh;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 18px;
+}
+
+@media (max-width: 630px) {
+  .main-header {
+    height: auto;
+  }
+}
+
+.left-header {
 }
 
 .right-header {
