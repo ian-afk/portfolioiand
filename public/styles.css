@@ -144,6 +144,22 @@ body {
 }
 /* END of PROJECT-PURPOSES */
 
+/* cONTACT ME */
+
+.contact-me {
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-me form label {
+  display: block;
+  margin: 6px 0;
+}
+
 /* footer */
 
 .footer {
