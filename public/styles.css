@@ -155,9 +155,19 @@ body {
   align-items: center;
 }
 
+.contact-me h2 {
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
 .contact-me form label {
   display: block;
   margin: 6px 0;
+}
+
+.contact-me form input:focus {
+  transform: scaleX(1.04);
+  transform-origin: left;
 }
 
 @media screen and (max-width: 420px) {
