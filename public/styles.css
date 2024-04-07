@@ -165,6 +165,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #090641;
+  color: #fefefe;
 }
 
 .contact-me h2 {
