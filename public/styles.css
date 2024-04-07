@@ -145,14 +145,28 @@ body {
 /* PROJECT-PURPOSES section */
 .project-purposes {
   padding: 0 120px;
+  margin: 0 0 48px;
 }
 
 .project-purposes > div {
   margin-bottom: 14px;
 }
 
-.project-purposes > div h2 {
+.project-purposes div h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.project-purposes > div h3 {
+  text-transform: uppercase;
   margin: 12px 0;
+}
+
+.project-purposes .ppurpose__img-holder {
+  height: 240px;
+  border: 2px solid turquoise;
+  border-radius: 12px;
+  margin-bottom: 12px;
 }
 /* END of PROJECT-PURPOSES */
 
