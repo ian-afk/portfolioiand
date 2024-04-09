@@ -181,6 +181,9 @@ body {
   align-items: center;
   background-color: #090641;
   color: #fefefe;
+
+  margin: 120px;
+  border-radius: 22px;
 }
 
 .contact-me h2 {
