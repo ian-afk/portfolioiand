@@ -133,6 +133,7 @@ body {
 
 .cards {
   height: 400px;
+  width: 200px;
   flex-shrink: 1;
 }
 
